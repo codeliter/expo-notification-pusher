@@ -28,7 +28,7 @@ To install expo-notification-pusher with Composer, add the following to your com
 or by running the following command:
 
 ```
-composer require mashape/unirest-php
+composer require codeliter/expo-notification-pusher
 ```
 
 * Install from source
