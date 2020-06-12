@@ -1,0 +1,26 @@
+{
+  "name": "codeliter/expo-notification-pusher",
+  "description": "Send push notifications from your backend to an expo app",
+  "type": "library",
+  "require": {
+    "mashape/unirest-php": "^3.0",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abolarin stephen",
+      "email": "hackzlord@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codeliter\\ExpoPush\\": "src",
+      "Codeliter\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.2",
+    "larapack/dd": "^1.1"
+  }
+}
